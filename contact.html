@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/ip9j2yQZU1TFwwaM8" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			Contact Alternative Learning System - ALS
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+		<div class="btn">
+			<a href="https://forms.gle/ip9j2yQZU1TFwwaM8" class="yellow">ENROLL NOW</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Mag-enroll na sa ALS! Dahil sa ALS may pag-asa!</h1>
+		<p>Sama-sama nating tahakin ang landas tungo sa tagumpay!</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Anu-ano ang basic requirements sa ALS enrollment? :</h3>
+				<p>Photocopy ng birth certificate (PSA) o baptismal certificate  </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Anu-ano ang basic requirements sa ALS enrollment?:</h3>
+				<p>2x2 ID picture (white background) </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Anu-ano ang basic requirements sa ALS enrollment?:</h3>
+				<p>Form 137 (para lang sa learners na galing sa formal school)  </p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Community ALS Implementer</h1>
+		<p>"Empowering Minds, Transforming Lives"</p>
+
+			</div>
+
+			<div class="profile">
+				<img src="img/pic.jpg" alt="Ma'am Lau">
+				<h6>Lourivel D. Laurente</h6>
+				<p>Araling Panlipunan</p>
+				<div class="pro-links">
+					<i class="https://www.facebook.com/ricca.laurente">@Lourivel</i>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email</h3>
+			<li>laurentelourivel@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Phone #0905-961-4708</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Location</h3>
+			<li>Sankanan, Manolo Fortich Bukidnon</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Me</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
